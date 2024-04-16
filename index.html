@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bondi</title>
+    <link rel="stylesheet" href="./style/all.min.css" />
+    <link href="./output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./style/bondi.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <style>
+      .material-symbols-outlined {
+        font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+      }
+    </style>
+    <style>
+      .material-symbols-outlined {
+        font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- start header  -->
+    <nav
+      class="bg-[#19283f] w-full h-20 transition duration-1000 fixed z-[100] px-5"
+    >
+      <div
+        class="container mx-auto w-full sm:flex flex-row justify-between items-center py-4"
+      >
+        <div
+          class="header mx-auto w-full sm:flex flex-row justify-between items-center relative"
+        >
+          <img src="imgs/logo.png" alt="logo" class="ml-5 mt-2 sm:m-0 w-16" />
+          <div
+            class="group icon block sm:hidden text-white absolute top-2 right-10 cursor-pointer"
+          >
+            <span
+              class="menu material-symbols-outlined text-3xl cursor-pointer"
+            >
+              menu
+            </span>
+          </div>
+          <div
+            class="list-content flex flex-col sm:py-0 sm:flex-row sm:items-center mt-6 sm:m-0 bg-[#19283f] sm:bg-transparent pl-5 pb-5 transition-all duration-1000"
+          >
+            <ul class="sm:flex sm:border-r">
+              <li
+                class="border-b sm:border-none pt-3 mr-3 text-white hover:text-[#33d1cc] duration-700 p-2"
+              >
+                <a href="#Home">Home</a>
+              </li>
+              <li
+                class="border-b sm:border-none pt-3 mr-3 hover:text-[#33d1cc] duration-700 p-2"
+              >
+                <a href="#Services">Services</a>
+              </li>
+              <li
+                class="border-b sm:border-none pt-3 mr-3 hover:text-[#33d1cc] duration-700 p-2"
+              >
+                <a href="#Portfolio">Portfolio</a>
+              </li>
+              <li
+                class="border-b sm:border-none pt-3 mr-3 hover:text-[#33d1cc] duration-700 p-2"
+              >
+                <a href="#About">About</a>
+              </li>
+              <li
+                class="border-b sm:border-none pt-3 mr-3 hover:text-[#33d1cc] duration-700 p-2"
+              >
+                <a href="#Contact">Contact</a>
+              </li>
+            </ul>
+            <div class="hidden sm:block text-[#33d1cc]">
+              <span class="material-symbols-outlined p-2"> search </span>
+            </div>
+            <button
+              class="rounded-full bg-[#ff3150] text-[#ffc400] px-4 py-2 w-fit mt-5 sm:mt-0"
+            >
+              Login
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- End header  -->
+
+    <!-- start Home  -->
+    <div
+      class="home bg-[#19283f] text-white flex justify-center items-center"
+      id="Home"
+    >
+      <div class="conntent text-center mx-1">
+        <h1 class="text-3xl mb-3 sm:text-5xl">Taste the Creativity</h1>
+        <p class="mb-10 text-slate-400">
+          Wi make awesome graphic and web design
+        </p>
+        <button
+          class="rounded-full bg-[#ff3150] text-[#ffc400] px-4 py-2 w-fit mt-5 sm:mt-0"
+        >
+          Get Started
+        </button>
+      </div>
+    </div>
+    <!-- End Home  -->
+    <!-- start Services  -->
+    <div class="services features py-10 text-center" id="Services">
+      <div class="container mx-auto">
+        <div class="container w-full">
+          <div
+            class="after:content-[''] after:absolute after:w-[120px] after:h-0.5 after:bg-[#33d1cc] after:-bottom-5 after:left-1/2 after:-translate-x-1/2 font-normal my-10 mx-auto text-center m-auto relative z-[-3]"
+          >
+            <img
+              src="./imgs/title.png"
+              alt="title"
+              class="left-1/2 relative transform -translate-x-1/2 -translate-y-1/2 top-1/2"
+            />
+            <h2 class="font-bold text-4xl">We are Good at</h2>
+            <p class="text-slate-400 uppercase">some of these stuff under</p>
+          </div>
+        </div>
+        <div
+          class="content-services grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3"
+        >
+          <div class="feat p-10">
+            <div class="icon-holder relative h-48">
+              <i
+                class="fa-solid fa-1 absolute number bottom-0 text-[#eff7fa] left-1/2 -translate-x-1/2"
+              ></i>
+              <i
+                class="fa-solid fa-pencil fa-4x absolute bottom-0 text-[#33d1cc] left-1/2 -translate-x-1/2"
+              ></i>
+            </div>
+            <h4 class="my-3 uppercase color-[#33d1cc] text-2xl">
+              Graphic Design
+            </h4>
+            <p class="text-slate-400 leading-7 mx-auto max-w-80">
+              Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo,
+              lacinia eget consectetur sed, convallis at tellus.
+            </p>
+          </div>
+          <div class="feat p-10">
+            <div class="icon-holder relative h-48">
+              <i
+                class="fa-solid fa-2 absolute number bottom-0 text-[#eff7fa] left-1/2 -translate-x-1/2"
+              ></i>
+              <i
+                class="fa-solid fa-tv fa-4x absolute bottom-0 text-[#33d1cc] left-1/2 -translate-x-1/2"
+              ></i>
+            </div>
+            <h4 class="my-3 uppercase color-[#33d1cc] text-2xl">
+              Graphic Design
+            </h4>
+            <p class="text-slate-400 leading-7 max-w-80 mx-auto">
+              Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo,
+              lacinia eget consectetur sed, convallis at tellus.
+            </p>
+          </div>
+          <div class="feat p-10">
+            <div class="icon-holder relative h-[200px]">
+              <i
+                class="fa-solid fa-3 absolute number bottom-0 text-[#eff7fa] left-1/2 -translate-x-1/2"
+              ></i>
+              <i
+                class="fa-solid fa-plug fa-4x absolute bottom-0 text-[#33d1cc] left-1/2 -translate-x-1/2"
+              ></i>
+            </div>
+            <h4 class="my-3 uppercase color-[#33d1cc] text-2xl">
+              Graphic Design
+            </h4>
+            <p class="text-slate-400 leading-7 max-w-80 mx-auto">
+              Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo,
+              lacinia eget consectetur sed, convallis at tellus.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Services  -->
+    <!-- start our-work  -->
+    <div class="our-work py-10 text-center bg-[#eff7fa]" id="Portfolio">
+      <div class="container mx-auto">
+        <div
+          class="after:content-[''] after:absolute after:w-[120px] after:h-0.5 after:bg-[#33d1cc] after:-bottom-5 after:left-1/2 after:-translate-x-1/2 font-normal my-10 mx-auto text-center m-auto relative"
+        >
+          <img
+            src="./imgs/title.png"
+            alt="title"
+            class="left-1/2 relative transform -translate-x-1/2 -translate-y-1/2 top-1/2"
+          />
+          <h2 class="font-bold text-4xl">We are Good at</h2>
+          <p class="text-slate-400 uppercase">some of these stuff under</p>
+        </div>
+        <ul class="flex justify-center items-center my-5 px-3">
+          <li
+            class="rounded-full py-2 px-4 bg-[#ff3150] text-[#ffc400] cursor-pointer"
+          >
+            All
+          </li>
+          <li
+            class="rounded-full py-2 px-4 hover:text-[#ff3150] transition-all duration-500 cursor-pointer"
+          >
+            Design
+          </li>
+          <li
+            class="rounded-full py-2 px-4 hover:text-[#ff3150] transition-all duration-500 cursor-pointer"
+          >
+            Code
+          </li>
+          <li
+            class="rounded-full py-2 px-4 hover:text-[#ff3150] transition-all duration-500 cursor-pointer"
+          >
+            Photo
+          </li>
+          <li
+            class="rounded-full py-2 px-4 hover:text-[#ff3150] transition-all duration-500 cursor-pointer"
+          >
+            App
+          </li>
+        </ul>
+        <div
+          class="gallery max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-0 px-3"
+        >
+          <div class="gallery-img mx-auto relative">
+            <div
+              class="box p-1.5 mb-3 overflow-hidden relative bg-white sm:w-[300px] md:w-[250px] xl:w-[300px]"
+            >
+              <img src="imgs/work-01.jpg" alt="work" data-work="Application" />
+            </div>
+          </div>
+          <div class="gallery-img mx-auto">
+            <div
+              class="box p-1.5 mb-3 overflow-hidden relative bg-white sm:w-[300px] md:w-[250px] xl:w-[300px]"
+            >
+              <img src="imgs/work-02.jpg" alt="work" data-work="Application" />
+            </div>
+          </div>
+          <div class="gallery-img mx-auto">
+            <div
+              class="box p-1.5 overflow-hidden mb-3 relative bg-white sm:w-[300px] md:w-[250px] xl:w-[300px]"
+            >
+              <img src="imgs/work-03.jpg" alt="work" data-work="Application" />
+            </div>
+          </div>
+          <div class="gallery-img mx-auto">
+            <div
+              class="box p-1.5 overflow-hidden mb-3 relative bg-white sm:w-[300px] md:w-[250px] xl:w-[300px]"
+            >
+              <img src="imgs/work-04.jpg" alt="work" data-work="Application" />
+            </div>
+          </div>
+          <div class="gallery-img mx-auto">
+            <div
+              class="box p-1.5 overflow-hidden mb-3 relative bg-white sm:w-[300px] md:w-[250px] xl:w-[300px]"
+            >
+              <img src="imgs/work-05.jpg" alt="work" data-work="Application" />
+            </div>
+          </div>
+          <div class="gallery-img mx-auto">
+            <div
+              class="box p-1.5 overflow-hidden mb-3 relative bg-white sm:w-[300px] md:w-[250px] xl:w-[300px]"
+            >
+              <img src="imgs/work-06.jpg" alt="work" data-work="Application" />
+            </div>
+          </div>
+          <div class="gallery-img mx-auto">
+            <div
+              class="box p-1.5 overflow-hidden mb-3 relative bg-white sm:w-[300px] md:w-[250px] xl:w-[300px]"
+            >
+              <img src="imgs/work-07.jpg" alt="work" data-work="Application" />
+            </div>
+          </div>
+          <div class="gallery-img mx-auto">
+            <div
+              class="box p-1.5 overflow-hidden mb-3 relative bg-white sm:w-[300px] md:w-[250px] xl:w-[300px]"
+            >
+              <img src="imgs/work-08.jpg" alt="work" data-work="Application" />
+            </div>
+          </div>
+        </div>
+        <button
+          class="rounded-full bg-[#ff3150] text-[#ffc400] px-4 py-2 w-fit mt-10 uppercase"
+        >
+          i want more
+        </button>
+      </div>
+    </div>
+    <!-- End our-work  -->
+    <!-- start stuff  -->
+    <div class="stuff pt-5" id="About">
+      <div class="container mx-auto">
+        <div
+          class="font-normal my-10 mx-auto text-center m-auto relative after:content-[''] after:absolute after:w-[120px] after:h-0.5 after:bg-[#33d1cc] after:-bottom-5 after:left-1/2 after:-translate-x-1/2"
+        >
+          <img
+            src="./imgs/title.png"
+            alt="title"
+            class="left-1/2 relative transform -translate-x-1/2 -translate-y-1/2 top-1/2"
+          />
+          <h2 class="font-bold text-4xl">We are Good at</h2>
+          <p class="text-slate-400 uppercase">some of these stuff under</p>
+        </div>
+        <p class="description text-center max-w-[550px] mx-auto mb-10">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
+          fugiat, ipsa asperiores, in quasi placeat inventore alias praesentium
+          odit blanditiis nihil at iure quam totam cupiditate rem animi.
+          Mollitia, saepe.
+        </p>
+        <div
+          class="stuff-content flex flex-col md:flex-row items-center justify-around gap-10"
+        >
+          <div class="stuff-text text-center md:text-start p-4">
+            <h3 class="text-3xl font-semibold">Retina Design</h3>
+            <p class="my-5 max-w-[296px]">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
+              esse quaerat ducimus deserunt alias? Ducimus id inventore
+            </p>
+            <p class="max-w-[296px]">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Exercitationem, dolor! perferendis obcaecati assumenda laboriosam
+              sint voluptatum. Enim quae debitis quod error veritatis ex.
+            </p>
+            <button
+              class="rounded-full bg-[#ff3150] text-[#ffc400] px-4 py-2 w-fit mt-10 uppercase"
+            >
+              i want more
+            </button>
+          </div>
+          <div class="stuff-image-container">
+            <img src="./imgs/laptop.png" alt="laptop" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End stuff  -->
+    <!-- start our team  -->
+    <div class="Our-team py-10 text-center bg-[#eff7fa]">
+      <div class="container mx-auto py-10 px-3">
+        <div class="title py-12">
+          <h2 class="text-[#ffc400] text-3xl font-bold mb-3 capitalize">
+            meet the team
+          </h2>
+          <p class="text-slate-400 max-w-xl mx-auto mb-3">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Dignissimos error aperiam consectetur totam nisi nobis, hic, a
+            velconsectetur totam nisi nobis, hic, a vel
+          </p>
+        </div>
+        <div
+          class="our-team-boxs grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 px-10"
+        >
+          <div
+            class="our-team-box max-w-[500px] bg-white overflow-hidden mx-auto"
+          >
+            <img src="imgs/team-1.png" alt="team" />
+            <div class="box-text">
+              <h4 class="bg-[#33d1cc] text-white py-3 font-bold text-3xl">
+                Luke Skywalker
+              </h4>
+              <blockquote class="p-3">
+                "i don't understand how we got by those troops. i thought we
+                were dead"
+              </blockquote>
+            </div>
+          </div>
+          <div
+            class="our-team-box max-w-[500px] bg-white overflow-hidden mx-auto"
+          >
+            <img src="imgs/team-2.png" alt="team" />
+            <div class="box-text">
+              <h4 class="bg-[#33d1cc] text-white py-3 font-bold text-3xl">
+                Luke Skywalker
+              </h4>
+              <blockquote class="p-3">
+                "i don't understand how we got by those troops. i thought we
+                were dead"
+              </blockquote>
+            </div>
+          </div>
+          <div
+            class="our-team-box max-w-[500px] bg-white overflow-hidden mx-auto"
+          >
+            <img src="imgs/team-3.png" alt="team" />
+            <div class="box-text">
+              <h4 class="bg-[#33d1cc] text-white py-3 font-bold text-3xl">
+                Luke Skywalker
+              </h4>
+              <blockquote class="p-3">
+                "i don't understand how we got by those troops. i thought we
+                were dead"
+              </blockquote>
+            </div>
+          </div>
+          <div
+            class="our-team-box max-w-[500px] bg-white overflow-hidden mx-auto"
+          >
+            <img src="imgs/team-4.png" alt="team" />
+            <div class="box-text">
+              <h4 class="bg-[#33d1cc] text-white py-3 font-bold text-3xl">
+                Luke Skywalker
+              </h4>
+              <blockquote class="p-3">
+                "i don't understand how we got by those troops. i thought we
+                were dead"
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end our team  -->
+    <!-- start teachs  -->
+    <div class="techs py-10 text-center">
+      <div class="container mx-auto">
+        <div
+          class="teachs-container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-10"
+        >
+          <div class="tech-img mx-auto">
+            <img src="imgs/tech-1.png" alt="tech" />
+          </div>
+          <div class="tech-img mx-auto">
+            <img src="imgs/tech-2.png" alt="tech" />
+          </div>
+          <div class="tech-img mx-auto">
+            <img src="imgs/tech-3.png" alt="tech" />
+          </div>
+          <div class="tech-img mx-auto">
+            <img src="imgs/tech-4.png" alt="tech" />
+          </div>
+          <div class="tech-img mx-auto">
+            <img src="imgs/tech-1.png" alt="tech" />
+          </div>
+          <div class="tech-img mx-auto">
+            <img src="imgs/tech-2.png" alt="tech" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End teachs  -->
+    <!-- start Project  -->
+    <div class="project text-center bg-[#19283f] py-10 text-white">
+      <div class="container py-5 mx-auto">
+        <div class="text-project">
+          <h2 class="text-3xl capitalize mb-3">start your project now</h2>
+          <p class="text-slate-400">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+          </p>
+          <button
+            class="rounded-full bg-[#ff3150] text-[#ffc400] px-4 py-2 w-fit mt-10 uppercase"
+          >
+            start project
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- End Project  -->
+    <!-- start Blog -->
+    <div class="blog py-20">
+      <div class="container mx-auto">
+        <div
+          class="after:content-[''] after:absolute after:w-[120px] after:h-0.5 after:bg-[#33d1cc] after:-bottom-5 after:left-1/2 after:-translate-x-1/2 font-normal my-10 mx-auto text-center m-auto relative"
+        >
+          <img
+            src="./imgs/title.png"
+            alt="title"
+            class="left-1/2 relative transform -translate-x-1/2 -translate-y-1/2 top-1/2"
+          />
+          <h2 class="font-bold text-4xl">We are Good at</h2>
+          <p class="text-slate-400 uppercase">some of these stuff under</p>
+        </div>
+        <div
+          class="card-grid grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 mx-5 my-20"
+        >
+          <div class="card overflow-hidden rounded-lg border-2">
+            <img src="imgs/blog-1.jpg" alt="blog" />
+            <div class="card-body p-3">
+              <span>Jan 17,2024</span>
+              <h5 class="text-xl">Some Awesome Blog title Here</h5>
+            </div>
+          </div>
+          <div class="card overflow-hidden rounded-lg border-2">
+            <img src="imgs/blog-2.jpg" alt="blog" />
+            <div class="card-body p-3">
+              <span>Jan 17,2024</span>
+              <h5 class="text-xl">Some Awesome Blog title Here</h5>
+            </div>
+          </div>
+          <div class="card overflow-hidden rounded-lg border-2">
+            <img src="imgs/blog-3.jpg" alt="blog" />
+            <div class="card-body p-3">
+              <span>Jan 17,2024</span>
+              <h5 class="text-xl">Some Awesome Blog title Here</h5>
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-center items-center">
+          <button
+            class="rounded-full bg-[#ff3150] text-[#ffc400] px-4 py-2 w-fit uppercase"
+          >
+            more storyies
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- End Blog -->
+    <!-- start subscribe  -->
+    <div class="subscribe py-20 bg-[#ffc400] text-white" id="Contact">
+      <div class="container mx-auto">
+        <div
+          class="first-flex flex justify-center items-center flex-col md:flex-row gap-3"
+        >
+          <h2 class="text-2xl font-bold text-[#19283f]">
+            Subscribe to our Newsletter:
+          </h2>
+          <div
+            class="sec-flex flex justify-evenly flex-col md:flex-row gap-5 items-center"
+          >
+            <input
+              type="text"
+              title="subscribe"
+              class="max-w-[500px] border-b placeholder:text-white px-2 focus:outline-none bg-transparent"
+              placeholder="Enter Email Address"
+            />
+            <button
+              class="rounded-full bg-[#19283f] text-[#ffc400] px-4 mx-4 py-2 w-fit uppercase"
+            >
+              subscribe
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End subscribe  -->
+    <!-- start footer  -->
+    <footer
+      class="bg-[#19283f] py-10 text-white text-center sm:text-start gap-10 sm:gap-0"
+    >
+      <div class="container mx-auto">
+        <div
+          class="content grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4"
+        >
+          <div class="first-col">
+            <img src="imgs/logo.png" alt="logo" class="mx-auto sm:mx-0 mb-5" />
+            <p class="my-5">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem,
+              repellendus.
+            </p>
+            <p>
+              Created By <span class="text-[#33d1cc]">Graphberry</span
+              ><br />&copy; 2024 -
+              <span class="text-[#ffc400]">Bondi Inc</span>
+            </p>
+          </div>
+          <div class="second-col">
+            <h6 class="text-xl mx-auto sm:mx-0">Links</h6>
+            <ul>
+              <li class="pt-2 text-slate-400 w-fit mx-auto sm:mx-0">Home</li>
+              <li class="pt-2 text-slate-400 w-fit mx-auto sm:mx-0">
+                Our Services
+              </li>
+              <li class="pt-2 text-slate-400 w-fit mx-auto sm:mx-0">
+                Portfolio
+              </li>
+              <li class="pt-2 text-slate-400 w-fit mx-auto sm:mx-0">
+                Testimonials
+              </li>
+              <li class="pt-2 text-slate-400 w-fit mx-auto sm:mx-0">Support</li>
+              <li class="pt-2 text-slate-400 w-fit mx-auto sm:mx-0">
+                Terms and
+              </li>
+              <li class="pt-2 text-slate-400 w-fit mx-auto sm:mx-0">
+                condition
+              </li>
+            </ul>
+          </div>
+          <div class="third-col">
+            <h6 class="text-xl mx-auto sm:mx-0">About Us</h6>
+            <ul>
+              <li class="pt-2 text-slate-400 w-fit mx-auto sm:mx-0">sign In</li>
+              <li class="pt-2 text-slate-400 w-fit mx-auto sm:mx-0">
+                Register
+              </li>
+              <li class="pt-2 text-slate-400 w-fit mx-auto sm:mx-0">
+                About Us
+              </li>
+              <li class="pt-2 text-slate-400 w-fit mx-auto sm:mx-0">Blog</li>
+              <li class="pt-2 text-slate-400 w-fit mx-auto sm:mx-0">
+                Contact Us
+              </li>
+            </ul>
+          </div>
+          <div class="fourth-col">
+            <div class="fourth-col-content">
+              <h6 class="text-xl mb-5">Contact Us</h6>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad</p>
+              <button
+                class="rounded-full bg-[#ff3150] text-white px-4 my-5 py-2 w-[200px] text-sm uppercase"
+              >
+                graphberry@gmail.com
+              </button>
+            </div>
+            <ul class="flex justify-evenly">
+              <li>
+                <a href="#" class="text-white block" title="icon">
+                  <i
+                    class="fa-brands fa-facebook fa-lg bg-[#1877f2] w-[20px] h-[20px] rounded-full p-2"
+                  ></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="text-white block" title="icon">
+                  <i
+                    class="fa-brands fa-twitter fa-lg bg-[#1da1f2] w-[20px] h-[20px] rounded-full p-2"
+                  ></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="text-white block" title="icon">
+                  <i
+                    class="fa-brands fa-linkedin fa-lg bg-[#0077b5] w-[20px] h-[20px] rounded-full p-2"
+                  ></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="text-white block" title="icon">
+                  <i
+                    class="fa-brands fa-youtube fa-lg bg-[#ff0000] w-[20px] h-[20px] rounded-full p-2"
+                  ></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End footer  -->
+    <script src="./js/all.min.js"></script>
+  </body>
+</html>
